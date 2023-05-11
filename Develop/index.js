@@ -92,7 +92,7 @@ List out the sections in your README file, and provide links to each section. Th
 - [Deployment](#deployment)`
 ;
     
-  fs.appendFile('README.md', data, (err) => {
+  fs.appendFile('../README.md', data, (err) => {
     if (err) throw err;
     console.log('Answers saved to README.md');
   });
