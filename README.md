@@ -24,15 +24,23 @@ Licenses used: N/A
 
 ## Deployment
 
-TODO
+Deployed application: https://brockhanni.github.io/week-9-readme/
+
+Assignment repository: https://github.com/BrockHanni/week-9-readme
+
+## Screenshots
+
+![Screenshot](./Develop/assets/Screenshot.png)
 
 ## Table of Contents
-
-List out the sections in your README file, and provide links to each section. This makes it easy for readers to find the information they're looking for. Some common sections to include are:
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Tests](#tests)
 - [Contributing/Contact](#contributing/Contact)
 - [License](#license)
-- [Deployment](#deployment)# test
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Table of Contents](#table-of-contents)
+
+

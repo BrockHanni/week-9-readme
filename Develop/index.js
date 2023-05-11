@@ -1,8 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+// calling inquirer to prompt user for input
 inquirer
-
     .prompt([
+      // prompts for user input
         {
           type: 'input',
           message: 'Enter the title',
@@ -50,7 +51,7 @@ inquirer
           },
       ])
       .then((answers) => {
-        // Write the answers to a text file
+        // Write the answers to a text file of a formatted pre-created README.md
         const data = 
 `# ${answers.Title}
 
@@ -80,16 +81,20 @@ Licenses used: ${answers.license}
 
 ${answers.GitHub}
 
+## Screenshots
+
+INSERT SCREENSHOTS HERE
+
 ## Table of Contents
-
-List out the sections in your README file, and provide links to each section. This makes it easy for readers to find the information they're looking for. Some common sections to include are:
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Test](#test)
 - [Contributing/Contact](#contributing/Contact)
 - [License](#license)
-- [Deployment](#deployment)`
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Table of Contents](#table-of-contents)
+`
 ;
     
   fs.appendFile('../README.md', data, (err) => {
