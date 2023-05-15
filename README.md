@@ -32,6 +32,8 @@ Assignment repository: https://github.com/BrockHanni/week-9-readme
 
 ![Screenshot](./Develop/assets/Screenshot.png)
 
+https://github.com/BrockHanni/week-9-readme/assets/106788919/9a833f4f-1a90-4ce8-8660-63bc535aa1e0
+
 ## Table of Contents
 
 - [Installation](#installation)
